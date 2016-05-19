@@ -1,0 +1,57 @@
+p {
+    font-family: 'Sinclair ZX Spectrum ES Regular', serif;
+    font-size: 1.31em;
+    line-height: 1.15em;
+    color: black;
+    font-smooth: never;
+    -webkit-font-smoothing: none;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+}
+
+#scroll {
+    background-color: #CDCDCD;
+}
+
+#passage {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+a {
+    background: black;
+    color: #CDCDCD;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+a:hover {
+    color: #CDCDCD;
+}
+
+img {
+    width: 100%;
+    height: auto%;
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+#decorator {
+    background-image: url('decorator.gif');
+    image-rendering: pixelated;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    background-repeat: repeat-x;
+    background-position: center center;
+    width: 100%;
+    height: 0.8em;
+    background-size: 2.2em 1.0em;
+    float: left;
+}
